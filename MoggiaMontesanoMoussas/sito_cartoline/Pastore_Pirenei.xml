@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "MoggiaMontesanoMoussas2.dtd">
+<?xml-stylesheet type="text/xsl" href="stylesheet2.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO -->
+                <title>Berger de Pyreenes - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="RM">Rebecca Moggia</name>
+                    <name xml:id="CM">Chiara Montesano</name>
+                    <name xml:id="EM">Eleni Moussas</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC2">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Cimeli garibaldini e della Prima Guerra Mondiale</title>
+                <idno>7694-026</idno>
+            </seriesStmt>
+            
+            <!-- NOTE -->
+            <notesStmt>
+                <note>Rose Bonheur autrice quadro originale, sul retro  troviamo stampata una breve storia sull'autrice</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#BP">Berger de Pyreenes</title>
+                    <author ref="#RB">Rose Bonheur</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina -->
+                    <publisher>Stengel&amp;Co., Germany</publisher> 
+                    <!-- LUOGO -->
+                    <pubPlace>Dresda</pubPlace>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement ref="#SP">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_026_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>                   
+ 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note>Mittente</note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Destinatario</note>
+                    </person>
+					<person xml:id="RB">
+                        <persName>
+                            <forename>Rose</forename>
+                            <surname>Bonheur</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <occupation n="2">Illustratrice</occupation>
+                        <note>Una sua breve biografia compare sul retro della cartolina</note>
+                    </person>
+                </listPerson>     
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="DD">
+                        <placeName>Dresda</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Dresda</district>
+                        <district type="provincia">DD</district>
+                        <country key="N">DE</country>
+                    </place>
+                    <place xml:id="P75">
+                        <placeName>Parigi</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Parigi</district>
+                        <district type="provicia">75</district>
+                        <country key="N">FR</country>
+                    </place>
+                    <place xml:id="B33">
+                        <placeName>Bordeaux</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Gironda</district>
+                        <district type="provicia">33</district>
+                        <country key="N">FR</country>
+                    </place>
+                    <place xml:id="F77">
+                        <placeName>Fountainebleu</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Senna e Marna</district>
+                        <district type="provicia">77</district>
+                        <country key="N">FR</country>
+                    </place>
+                    <place xml:id="PIR">
+                        <geogName type="mountain">
+                            <name>Pirenei</name>
+                        </geogName>
+                    </place>
+                </listPlace>
+                 <listOrg>
+                    <org xml:id="ST">
+                        <orgName type="N">Stengel&amp;Co, Germany</orgName>
+                        <desc>Tipografia</desc>
+                    </org>
+                </listOrg>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica </term>
+                    <term>Paesaggio, pecore e pastore</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+                <language ident="fr-FR">Francese</language>
+                <language ident="en-GB">Inglese</language>
+            </langUsage>
+        </profileDesc>        
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="fronte_026" start="#fronte_026" n="1">
+            <graphic url='imgCartoline/7694-026F.jpg' width='605px' height='388px' />
+        </surface>
+
+        <surface xml:id="retro_026" start="#retro_026" n="2">
+            <graphic url='imgCartoline/7694-026R.jpg' width='605px' height='388px' />
+            <zone xml:id="MS_026" ulx="49" uly="14" lrx="273" lry="274" />
+            <zone xml:id="AD1_026" ulx="298" uly="144" lrx="582" lry="195" />
+            <zone xml:id="AD2_026" ulx="298" uly="198" lrx="544" lry="237" />
+            <zone xml:id="AD3_026" ulx="289" uly="243" lrx="547" lry="271" />
+            <zone xml:id="AD4_026" ulx="359" uly="277" lrx="560" lry="351" />
+            <zone xml:id="ST_026" ulx="427" uly="16" lrx="570" lry="137" />
+            <zone xml:id="TIP_026" ulx="277" uly="20" lrx="337" lry="52" />
+            <zone xml:id="BIO_026" ulx="32" uly="332" lrx="294" lry="377" />
+            <zone xml:id="IQ_026" ulx="33" uly="316" lrx="293" lry="329" />
+            <zone xml:id="TIP2_026" ulx="16" uly="69" lrx="30" lry="317" />
+            <zone xml:id="NS_026" ulx="359" uly="15" lrx="398" lry="44" />
+        </surface>
+    </facsimile>
+    <text type="cartolina">
+        <body>
+            <div facs="#fronte_026" type="fronte">
+                <figure>
+                    <graphic url="imgCartoline/7694-026F.jpg"/>
+                    <figDesc>Paesaggio, pecore e pastore</figDesc>
+                </figure>
+            </div>
+			<div facs="#retro_026" type="retro">
+				<!--TRASCRIZIONE DEL RETRO-->
+				<div type="message">
+					<p facs="#MS_026">Per l'anno nuovo i più fervidi auguri [...] dalla Valle</p>
+				</div>
+				<!--TRASCRIZIONE DESTINAZIONE-->
+				<div type="destination">
+					<p>
+					  <address>
+                        <addrLine facs="#AD1_026">Per la <choice><abbr>Gentissima</abbr><expan> (Gentilissima) </expan></choice><choice><abbr>Signa</abbr><expan> (Signorina) </expan></choice></addrLine>
+                        <addrLine facs="#AD2_026"><persName ref="#OT">Olivia Turtura</persName></addrLine>
+                        <addrLine facs="#AD3_026">Via Girolamo Rossi</addrLine>
+                        <addrLine facs="#AD4_026"><placeName ref="#RV">Ravenna</placeName></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+					</p>
+                    <div>
+                        <p>
+                        <!-- TIMBRO E FRANCOBOLLO -->
+                        <stamp facs="#ST_026" type="postmark"><gap reason="illegible" quantity="1" unit="chars"/>
+                            <mentioned>
+                                <unclear cert="high" reason="illegible">San Pietro in Vincoli</unclear> - <placeName ref="#RV">Ravenna</placeName>
+                            </mentioned>
+                        </stamp>
+                        <stamp facs="#ST_026" type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                        </p>
+                    </div>
+                    <!--TRASCRIZIONE DELLE ALTRE PARTI-->
+                    <div type="printed">
+                        <p facs="#TIP_026">Stengel</p>
+                    </div>
+                    <div type="printed">
+                        <p facs="#BIO_026"><foreign xml:lang="fr"><mentioned><persName ref="#RB">ROSE BONHEUER</persName>, né 22 Mars à <placeName ref="#B33">Bordeaux</placeName>, mort 25 Mai à By chez <placeName ref="F77">Fountainbleu</placeName>. Paysagiste célèbre.</mentioned></foreign></p> 
+                        <p facs="#BIO_026"><foreign xml:lang="fr"><mentioned>Parmi ses meillures oeuvres il y a: Labourage Ninvernais, Berger des Pyrenés, Maché de chevaux.</mentioned></foreign></p>
+                    </div>
+                    <div type="printed">
+                        <p facs="#IQ_026"><foreign xml:lang="fr"><placeName ref="#P75">Paris</placeName>Berger des Pyrenées</foreign> <persName ref="#RB">Rosa Bonheuer</persName></p>
+                    </div>
+                    <div type="printed">
+                        <p facs="#TIP2_026"><orgName>Stengel&amp;Co., G.m.b.H., </orgName><placeName ref="#DD">Dresden</placeName>29229 Made in Germany</p>
+                    </div>
+                    <div>
+                        <p facs="#NS_026">26</p>
+                    </div>
+                </div>
+            </div>
+      </body>
+    </text>
+</TEI>

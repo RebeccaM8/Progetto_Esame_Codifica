@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "MoggiaMontesanoMoussas2.dtd"> 
+<?xml-stylesheet type="text/xsl" href="stylesheet2.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO -->
+                <title>Donna con scoiattolo - Edizione digitale</title>
+                <!-- TRASCRITTORE -->
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name xml:id="RM">Rebecca Moggia</name>
+                    <name xml:id="CM">Chiara Montesano</name>
+                    <name xml:id="EM">Eleni Moussas</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC2">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Cimeli garibaldini e della Prima Guerra Mondiale</title>
+                <idno>7694-210</idno>
+            </seriesStmt>
+            
+            <!-- NOTE -->
+            <notesStmt>
+                <note>Sul fronte riporta stampato il nome dell'artista (Mauzano). Sul retro troviamo la stampa "Proprietà artistica riservata - Uff. Rev. Stampa Milano 30-7-17 N 1679"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <title type="custom" resp="#DS">[Donna con scoiattolo]</title>
+                    <author ref="#ALM">Achille Luciano Mauzan</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina -->
+                    <publisher>Uff. Rev. Stampa</publisher> 
+                    <!-- LUOGO -->
+                    <pubPlace>Milano</pubPlace>
+                    <!-- CRONOLOGIA -->
+                    <date>1918</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement ref="#SP">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_210_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>14</height>
+                                        <width>9</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>             
+                   <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note>Mittente</note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Destinatario</note>
+                    </person>
+					<person xml:id="ALM">
+                        <persName>
+                            <forename>Achille Luciano</forename>
+                            <surname>Mauzan</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="2">Illustratore</occupation>
+                        <note>Nato in Francia, si trasferì presto in Italia dove iniziò a lavorare come illustratore dapprima per riviste, cartoline o ceramiche, in seguito per la nascente industria cinematografica producendo tra il 1909 e il 1913 circa 1500 locandine di film.</note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>Città del destinitario</note>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                        <note>Città del mittente</note>
+                    </place>
+                    <place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country key="N">IT</country>
+                        <note>Città dell'editore</note>
+                    </place>
+                </listPlace>
+
+				<listOrg>
+                    <org xml:id="URS">
+                        <orgName type="N">Uff. Rev. Stampa Milano</orgName>
+                    </org>
+                </listOrg>             
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName ref="#MO"/>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1916-12-19">1918/04/05</date>
+                    <date type="writing" when="1916-12-19">1918/04/05</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName ref="#RV"/>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Una donna accarezza uno scoiattolo che tiene in mano</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="fronte_210" start="#fronte_210" n="1">
+            <graphic url='imgCartoline/7694-210F.jpg' width='383px' height='605px' />
+            <zone xml:id="SIG_210" ulx="8" uly="538" lrx="132" lry="570" />
+        </surface>
+
+        <surface xml:id="retro_210" start="#retro_210" n="2">
+                <graphic url='imgCartoline/7694-210R.jpg' width='605px' height='388px' />
+                <zone xml:id="LD_210" ulx="210" uly="27" lrx="252" lry="333" />
+                <zone xml:id="MS_210" ulx="111" uly="19" lrx="197" lry="337" />
+                <zone xml:id="SIG2_210" ulx="32" uly="98" lrx="101" lry="368" />
+                <zone xml:id="AD1_210" ulx="284" uly="110" lrx="479" lry="172" />
+                <zone xml:id="AD2_210" ulx="279" uly="184" lrx="588" lry="231" />
+                <zone xml:id="AD3_210" ulx="281" uly="236" lrx="595" lry="287" />
+                <zone xml:id="AD4_210" ulx="317" uly="290" lrx="590" lry="359" />
+                <zone xml:id="ST_210" ulx="482" uly="9" lrx="594" lry="175" />
+                <zone xml:id="PAR_210" ulx="262" uly="5" lrx="276" lry="362" />
+                <zone xml:id="NS_210" ulx="367" uly="15" lrx="431" lry="55" />
+        </surface>
+    </facsimile>
+    <!-- DEFINIZIONE -->
+    <text type="cartolina">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div facs="#fronte_210" type="fronte">
+                <figure>
+                    <graphic url="imgCartoline/7694-210F.jpg" />
+                    <figDesc>Una donna accarezza uno scoiattolo che tiene in mano</figDesc>
+                    <head facs="#SIG_210"><persName ref="#ALM">Achille Luciano Mauzan</persName></head>
+                </figure>
+            </div>
+            <div facs="#retro_210" type="retro">
+            <!--TRASCRIZIONE DEL MESSAGGIO-->
+                <div type="message">
+                    <p facs="#LD_210">
+                        <placeName ref="#MO">Modena</placeName>, li <date when="1918-04-05">5/<hi rend="dep">4</hi> - 1918 -</date>
+                    </p>
+                    <p facs="#MS_210">Di passaggio da <placeName ref="#MO">Modena</placeName> Saluti <choice><abbr>affsi</abbr><expan>aff<ex>ettuo</ex>si</expan></choice></p>
+                     
+                    <signed facs="#SIG2_210"><persName ref="#GC">Giovannino</persName></signed>
+                </div>
+                <!--TRASCRIZIONE DESTINAZIONE-->
+                <div type="destination">
+                    <p>
+                        <address>
+                            <addrLine facs="#AD1_210"><choice><abbr>Gent</abbr><expan> (Gentile) </expan></choice> <choice><abbr>Signa</abbr><expan> (Signorina) </expan></choice></addrLine>
+                            <addrLine facs="#AD2_210"><persName ref="#OT">Olivia Turtura</persName></addrLine>
+                            <addrLine facs="#AD3_210">Via Girolamo Rossi 58</addrLine>
+                            <addrLine facs="#AD4_210"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </p>
+                    <p>
+                        <!-- TIMBRO E FRANCOBOLLO -->
+                        <stamp facs="#ST_210" type="postmark"> 
+                            <mentioned>
+                                <placeName ref="#MO">Modena</placeName> - Ferrovia
+                            </mentioned>
+                            <date when="1918-04-18">1918/04/05</date>
+                        </stamp>
+                        <stamp facs="#ST_210" type="postage">Francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                </div>
+                <!--DESCRIZIONE DELLE ALTRE PARTI-->
+                <div type="printed">
+                    <p facs="#PAR_210">42-1 Proprietà artistica riservata - <choice><abbr>Uff.</abbr><expan> (Ufficio) </expan></choice><abbr>Rev.</abbr> Stampa Milano <date when="1917-7-30">30-7-17</date>. <choice><abbr>N</abbr><expan> (Numero) </expan></choice>1679</p>
+                </div>
+                <div>
+                    <p facs="#NS_210">210</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
